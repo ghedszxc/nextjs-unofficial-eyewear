@@ -1,0 +1,44 @@
+body {
+    padding: 0 !important;
+}
+
+/* Variable declarations*/
+:root {
+    --font-gt-america-standard-regular: "gt-america-standard-regular", sans-serif;
+    --font-gt-america-standard-light: "gt-america-standard-light", sans-serif;
+    --font-gt-america-expanded-bold: "gt-america-expanded-bold", sans-serif;
+    --font-gt-america-extended-bold: "gt-america-extended-bold", sans-serif;
+}
+
+
+@font-face {
+    font-family: 'gt-america-standard-regular';
+    src: url('../public/fonts/GT-America-Standard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gt-america-standard-light';
+    src: url('../public/fonts/GT-America-Standard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gt-america-expanded-bold';
+    src: url('../public/fonts/GT-America-Expanded-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gt-america-extended-bold';
+    src: url('../public/fonts/GT-America-Extended-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
